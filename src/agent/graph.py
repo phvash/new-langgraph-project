@@ -34,6 +34,7 @@ class State:
     """
 
     changeme: str = "example"
+    okaybye: str = "see ya"
 
 
 async def call_model(state: State, runtime: Runtime[Context]) -> Dict[str, Any]:
@@ -54,3 +55,4 @@ graph = (
     .add_edge("__start__", "call_model")
     .compile(name="New Graph")
 )
+
