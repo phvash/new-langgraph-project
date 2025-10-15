@@ -2,7 +2,7 @@
 
 Returns a predefined response. Replace logic and configuration as needed.
 
-Simulating code change ... 
+Simulating code change ... ..
 """
 
 from __future__ import annotations
